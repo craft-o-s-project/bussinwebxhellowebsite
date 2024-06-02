@@ -7,5 +7,4 @@ local myInput = get("myInput")      -- Use 'get' instead of 'document:getElement
 
 logButton:addEventListener("click", function()
     local inputValue = myInput.value
-    print(".. inputValue")
-end)
+    print("inputValue")
