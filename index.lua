@@ -1,3 +1,4 @@
+print("----------------------------------------------------------------------------")
 print("cool message")
 print("yes i did add some lua to print these messages")
 print("this is so cool")
