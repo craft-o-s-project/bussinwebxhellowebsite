@@ -3,5 +3,5 @@ local myInput = get("text")
 
 logButton:addEventListener("click", function()
     local inputValue = myInput.value
-    print(myImput)
+    print(myInput)
 end)
