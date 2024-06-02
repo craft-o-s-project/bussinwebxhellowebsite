@@ -1,10 +1,7 @@
--- index.lua (your existing Lua script)
--- ...
+local logButton = get("logButton")
 
--- Add an event listener to the button
-local logButton = get("logButton")  -- Use 'get' instead of 'document:getElementById'
-local myInput = get("myInput")      -- Use 'get' instead of 'document:getElementById'
 
-logButton:addEventListener("click", function()
-    local inputValue = myInput.value
-    print("inputValue")
+logButton.on_click(function()
+    local inputValue = get("myInput").value
+    print("Input value: " .. inputValue)
+end)
